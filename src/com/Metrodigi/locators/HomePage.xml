@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <Homepage>
+      <NewProjectButton><![CDATA[css=#new-project-btn]]></NewProjectButton>  
+      <SearchTextBox><![CDATA[css=#search]]></SearchTextBox>
+      <ProjectPriorityDropdown><![CDATA[css=#book_priority]]></ProjectPriorityDropdown>
+      <AllTasksDropdown><![CDATA[css=#book_status]]></AllTasksDropdown>
+      <Deleteprojectbutton><![CDATA[//button[contains(@id,'delete-project-btn')][1]]]></Deleteprojectbutton>      
+      <Confirmdelete><![CDATA[//button[@class ='btn btn-default confirm-delete-btn ng-scope']]]></Confirmdelete>
+      <Deletecollection><![CDATA[//button[contains(@id,'manage-project-delete-btn')]]]></Deletecollection>
+      <ConfirmDeletecollection><![CDATA[//button[contains(@class,'btn btn-default confirm-delete-btn')]]]></ConfirmDeletecollection>
+      <Deletedcollectionname><![CDATA[//a[@class='project-title ng-binding ng-scope'][1]]]></Deletedcollectionname>
+      <Deletedprojectname><![CDATA[//div[@class='item-thumb-title ng-binding'][1]]]></Deletedprojectname>
+      <ClickonProject><![CDATA[//div[@class='book-title']//div[@class='item-thumb-title ng-binding'][1]]]></ClickonProject>
+      <ClickonCollection><![CDATA[//a[@class='project-title ng-binding ng-scope'][1]]]></ClickonCollection>
+      <ManageProjectTeam><![CDATA[//button[contains(@name,'manageProjectTeam')][1]]]></ManageProjectTeam>
+      <ChooseUser1><![CDATA[//label[@for='user-17']]]></ChooseUser1>
+      <ChooseUser2><![CDATA[//label[@for='user-21']]]></ChooseUser2>
+      <AddtoProjectTeam><![CDATA[//button[contains(@id,'add-to-project-team-btn')]]]></AddtoProjectTeam>
+      <SaveButton><![CDATA[//button[contains(@id,'manage-project-team-save-btn')]]]></SaveButton> 
+      <Verifyprojectopen><![CDATA[//div[contains(text(),'Content Editor')]]]></Verifyprojectopen>
+      <Verifyprojectopen2><![CDATA[//button[@class='btn noselect ng-scope']]]></Verifyprojectopen2>
+      <Verifyprojectopen3><![CDATA[//div[@class='board-title']]]></Verifyprojectopen3>
+      <Verifyprojectopen4><![CDATA[//h3[@class='ng-binding grab-cursor'][1]]]></Verifyprojectopen4>
+    </Homepage>
+</Locators>

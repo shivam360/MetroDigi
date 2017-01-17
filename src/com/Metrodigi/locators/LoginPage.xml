@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <Login>
+      <UserName><![CDATA[//input[@id='username']]]></UserName>  
+      <Password><![CDATA[//input[@id='password']]]></Password>
+      <LoginButton><![CDATA[//div[contains(@class,'login-form-submit-group')]//button]]></LoginButton>  
+      <VerifyLogin><![CDATA[//div[@id='user-name-lnk']]]></VerifyLogin>  
+      <VerifyCollection><![CDATA[//a[@class='project-title ng-binding ng-scope'][1]]]></VerifyCollection>          
+   </Login>
+</Locators>

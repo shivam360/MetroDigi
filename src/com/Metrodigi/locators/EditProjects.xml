@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <EditProjects>
+      <Collection>
+       <CollectionName><![CDATA[//input[@id='form-project-title']]]></CollectionName>  
+       <AddProjectButton><![CDATA[//button[contains(text(),'+Add Project')]]]></AddProjectButton>              
+   </Collection>
+   <NewProject>
+       <Reflowable><![CDATA[//div[@class='tab-pane ng-scope active']//label[text()='Reflowable']//span[2]]]></Reflowable>
+       <Fixedlayout><![CDATA[//div[@class='tab-pane ng-scope active']//label[text()='Fixed Layout']//span[2]]]></Fixedlayout>
+       <Yes><![CDATA[//div[@class='tab-pane ng-scope active']//label[text()='Yes']//span[2]]]></Yes>
+       <No><![CDATA[//div[@class='tab-pane ng-scope active']//label[text()='No']//span[2]]]></No>
+       <ProjectName><![CDATA[//div[@class='tab-pane ng-scope active']//input[starts-with(@id, 'form-book-title-')]]]></ProjectName>
+       <LocateFilesButton><![CDATA[//div[@class='tab-pane ng-scope active']//button[contains(text(),'Locate Files')]]]></LocateFilesButton>
+       <Savebutton><![CDATA[//button[contains(text(),'Save')]]]></Savebutton>
+    </NewProject>
+   </EditProjects>   
+</Locators>

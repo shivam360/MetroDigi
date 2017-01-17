@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <Header>
+      <UserNameLink><![CDATA[css=#user-name-lnk]]></UserNameLink>  
+      <ClientNameText><![CDATA[css=.client-name]]></ClientNameText>
+      <HamburgerMenu><![CDATA[css=span.icon-menu-hamburger]]></HamburgerMenu>
+      <ProjectTrackerLink><![CDATA[css=#project-tracker-link-btn]]></ProjectTrackerLink>
+      <ContentEditorLink><![CDATA[css=#book-editor-link-btn]]></ContentEditorLink>
+      <WidgetEditorLink><![CDATA[css=#widget-editor-link-btn]]></WidgetEditorLink>
+      <StructureEditorLink><![CDATA[css=#content-manager-link-btn]]></StructureEditorLink>
+      <NotesManagerLink><![CDATA[css=#note-manager-link-btn]]></NotesManagerLink>
+      <SupportFeedbackLink><![CDATA[css=#support-feedback-link-btn]]></SupportFeedbackLink>
+      <LogoutLink><![CDATA[css=#log-out-link-btn]]></LogoutLink>
+    </Header>
+</Locators>
